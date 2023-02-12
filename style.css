@@ -1,0 +1,180 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+}
+h1,h2,h3,h4 {
+
+}
+header{
+    background-image: url("image/reza2.JPG");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-container{
+    height: 100vh;
+    
+}
+.navbar{
+
+    padding: .5% 2%;
+    background-color: rgb(0,0,0,0.3);
+    height: 8vh;
+    nav-down: current;
+    nav-right: root;
+    
+
+}
+navbar-icon{
+    color: azure;
+}
+.navbar-brand img {
+    width: 60px;
+    height: 80px;
+}
+.nav-link{
+    color: aliceblue;
+    margin: 10px;
+    border-radius: 50px;
+    transition: 2s;
+}
+.nav-link:hover{
+    background-color: rgb(183, 194, 218);
+    color: aliceblue;
+    transform: scale(1.1);
+}
+#banner{
+color: rgb(228, 247, 247);
+border: 10px;
+margin: 5px 5px;
+
+}
+.banner-container h1{
+    font-size: 2.5rem;
+    background-color: rgba(7, 108, 189, 0.8);
+    padding: 10px 20px;
+    border-radius: 90px;
+    height: 9%;
+    width: 37%;
+    text-align: center;
+    border: 50%;
+    font-family: handlee,carcuve;
+}
+
+/*-----Fearchers------*/
+#features{
+    padding: 5% 10%;
+    background: ##e8ded2;
+}
+
+/*------fearches end-----*/
+
+.features-col{
+
+border: 2px solid rgb(195, 223, 120);
+border-radius: 20px;
+
+margin: 20px 0;
+transition: 3x;
+}
+.features-col:hover{
+    transform: scale(1.1);
+
+}
+.icon-style{
+    background: #bb0aac;
+    color: white;
+    padding: 15px;
+    margin: 5px 0;
+}
+
+#About-Me{
+    padding: 4% 10%;
+    background: floralwhite;
+
+
+}
+
+#About-Me p{
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    font-weight: lighter;
+
+}
+#About-Me a{
+
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    font-weight: lighter;
+    text-decoration: underline;
+    color: black;
+}
+
+.achieve-desc span{
+    font-weight: 700;!important;
+
+}
+.achivehr{
+
+
+width: 100px;
+
+}
+.Star i{
+
+    width: 50px;
+    color: aquamarine;
+
+}
+
+
+#Tutorial{
+
+    padding: 4px 10px;
+    background: ghostwhite;
+
+}
+.card{
+    transition: 4s;
+    border: 1px solid gray;
+}
+
+/*-----feadback start-----*/
+#Feadback{
+
+padding: 5% 10%;
+background: #ebe7eb;
+
+
+
+}
+
+.carousel img{
+    width: 30%;
+    height: 30%;
+    align-items: center;
+}
+.carousel-item{
+    text-align: center;
+    padding: 7% 10%;
+    font-style: italic;
+    font-size: medium;
+}
+/*-- contact start---*/
+
+#contact{
+    background: rgb(188, 206, 216);
+}
+/*---- contact end-----*/
+
+
+/*----footer start----*/
+
+footer{
+    padding: 1% 10%;
+    background: #056676;
+}
+/*----footer end----*/
